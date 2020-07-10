@@ -1,0 +1,32 @@
+{
+  "name": "apollo-hooks-issue",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "bsc-flags": [
+    "-bs-super-errors",
+    "-bs-no-version-header"
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "ppx-flags": [
+    "@reasonml-community/graphql-ppx/ppx"
+  ],
+  "bs-dependencies": [
+    "reason-react",
+    "reason-apollo-hooks",
+    "reason-apollo",
+    "@reasonml-community/graphql-ppx"
+  ],
+  "refmt": 3
+}
