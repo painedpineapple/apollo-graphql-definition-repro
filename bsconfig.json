@@ -20,13 +20,13 @@
   "suffix": ".bs.js",
   "namespace": true,
   "ppx-flags": [
-    "@reasonml-community/graphql-ppx/ppx"
+    "@baransu/graphql_ppx_re/ppx"
   ],
   "bs-dependencies": [
     "reason-react",
     "reason-apollo-hooks",
     "reason-apollo",
-    "@reasonml-community/graphql-ppx"
+    "@baransu/graphql_ppx_re"
   ],
   "refmt": 3
 }
